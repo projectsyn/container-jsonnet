@@ -1,6 +1,6 @@
 FROM golang:1.25.3 AS builder
 
-ARG JSONNET_VERSION=v0.21.0
+ARG JSONNET_VERSION=v0.22.0
 
 RUN go install github.com/google/go-jsonnet/cmd/...@${JSONNET_VERSION}
 
