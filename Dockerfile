@@ -1,4 +1,4 @@
-FROM golang:1.26.5 AS builder
+FROM golang:1.27.2 AS builder
 
 ARG JSONNET_VERSION=v0.22.0
 
